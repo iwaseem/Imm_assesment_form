@@ -1,0 +1,41 @@
+
+
+ul {
+  list-style-type: none;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+header.grid-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #fff;
+  margin: auto;
+}
+
+.grid-item {
+  display: flex;
+  background-color: #921442;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: var(--plain);
+}
